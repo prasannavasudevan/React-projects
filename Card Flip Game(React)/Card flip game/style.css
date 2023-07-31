@@ -1,0 +1,54 @@
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    margin: 5px;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+  }
+  
+  .card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card .front,
+  .card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .card .front {
+    background-color: #34bfd4;
+    transform: rotateY(0deg);
+  }
+  
+  .card .back {
+    background-color: #fbfbfb;
+    transform: rotateY(180deg);
+  }
+  
+  .card .back img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
