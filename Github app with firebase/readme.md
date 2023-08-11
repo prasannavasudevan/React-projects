@@ -1,4 +1,4 @@
-***GitUP App**
+**GitUP App**
 
 *This website consist of a sign up page for new users and a sign in page for registered users. Once the user is logged in, the Home page appears which ask the user for a input of a gitup user name, once the name is provided, the detials of the user is fetched through a Axios request and displayed on the Home page, the user log in details are stored on the firebase.*
 
