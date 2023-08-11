@@ -2,7 +2,7 @@
 
 *This website consist of a sign up page for new users and a sign in page for registered users. Once the user is logged in, the Home page appears which ask the user for a input of a gitup user name, once the name is provided, the detials of the user is fetched through a Axios request and displayed on the Home page, the user log in details are stored on the firebase.*
 
-
+<br/>
 
 **Sign Up Page**
 ![Sign Up Page)](https://github.com/prasannavasudevan/React-projects/assets/32860910/27a29386-4d6b-4e87-a051-19d1b93c928f)
